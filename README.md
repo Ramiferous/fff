@@ -67,21 +67,12 @@ This fork of `fff` uses `ueberzug` instead of `w3m-img` for image previews.
 
 ## Installation
 
-### Distros
-
-- KISS Linux (based): `kiss b fff`
-- FreeBSD: `pkg install fff`
-- Haiku: `pkgman install fff`
-- macOS: `brew install fff`
-- Nix: `nix-env -iA fff`
-- Void Linux: `xbps-install -S fff`
-- Arch Linux: `pacman -S fff`
+Coming soon to `pkgsrc/wip`
 
 ### Manual
 
 1. Download `fff`.
-    - Release: https://github.com/dylanaraps/fff/releases/latest
-    - Git: `git clone https://github.com/dylanaraps/fff`
+    - Git: `git clone https://github.com/ramiferous/fff`
 2. Change working directory to `fff`.
     - `cd fff`
 3. Run `make install` inside the script directory to install the script.
@@ -90,6 +81,8 @@ This fork of `fff` uses `ueberzug` instead of `w3m-img` for image previews.
     - **OpenIndiana**: `gmake install`
     - **MinGW/MSys**: `make -i install`
     - **NOTE**: You may have to run this as root.
+4. Install ueberzug
+    - `sudo pip install ueberzug`
 
 **NOTE:** `fff` can be uninstalled easily using `make uninstall`. This removes all of files from your system.
 
