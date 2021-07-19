@@ -405,8 +405,8 @@ draw_img() {
 
         declare -p -A cmd=([action]="add" \
                            [identifier]="${PPID}-ueberzug" \
-                           [x]="${FFF_W3M_XOFFSET:-0}" \
-                           [y]="${FFF_W3M_YOFFSET:-0}" \
+                           [x]="${FFF_IMG_XOFFSET:-0}" \
+                           [y]="${FFF_IMG_YOFFSET:-0}" \
                            [width]="$img_width" \
                            [height]="$img_height" \
                            [path]="${list[scroll]}") > "$FIFO_UEBERZUG"
