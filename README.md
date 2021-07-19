@@ -4,7 +4,7 @@
 
 A simple file manager written in `bash`.
 
-This fork of `fff` uses `ueberzug` instead of `w3m-img` for image previews.
+This fork of `fff` uses `ueberzug` instead of `w3m-img` for image previews. 
 
 <a href="https://travis-ci.org/dylanaraps/fff"><img src="https://travis-ci.org/dylanaraps/fff.svg?branch=master"></a>
 <a href="https://github.com/dylanaraps/fff/releases"><img src="https://img.shields.io/github/release/dylanaraps/fff.svg"></a>
@@ -20,7 +20,7 @@ This fork of `fff` uses `ueberzug` instead of `w3m-img` for image previews.
 - Tab completion for all commands!
 - Automatic CD on exit (*see [setup](#cd-on-exit)*)
 - Works as a **file picker** in `vim`/`neovim` ([**link**](https://github.com/dylanaraps/fff.vim))!
-- **Display images with w3m-img!**
+- **Display images with Ueberzug!**
 - Supports `$CDPATH`.
 
 
