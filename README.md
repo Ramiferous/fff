@@ -4,6 +4,8 @@
 
 A simple file manager written in `bash`.
 
+This fork of `fff` uses `ueberzug` instead of `w3m-img` for image previews.
+
 <a href="https://travis-ci.org/dylanaraps/fff"><img src="https://travis-ci.org/dylanaraps/fff.svg?branch=master"></a>
 <a href="https://github.com/dylanaraps/fff/releases"><img src="https://img.shields.io/github/release/dylanaraps/fff.svg"></a>
 <a href="https://repology.org/metapackage/fff"><img src="https://repology.org/badge/tiny-repos/fff.svg" alt="Packaging status"></a>
@@ -58,9 +60,9 @@ A simple file manager written in `bash`.
 
 **Dependencies for image display**
 
-- `w3m-img`
 - `xdotool` for X.
 - `fbset` for the framebuffer.
+- `ueberzug` for image display. Get it here https://github.com/seebye/ueberzug
 
 
 ## Installation
