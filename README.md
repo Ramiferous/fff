@@ -72,7 +72,7 @@ Coming soon to `pkgsrc/wip`
 ### Manual
 
 1. Download `fff`.
-    - Git: `git clone https://github.com/ramiferous/fff`
+    - Git: `git clone https://github.com/pfr-dev/fff`
 2. Change working directory to `fff`.
     - `cd fff`
 3. Run `make install` inside the script directory to install the script.
